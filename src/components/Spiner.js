@@ -5,7 +5,7 @@ export class Spiner extends Component {
   render() {
     return (
       <div className= "container text-center">
-        <img src= "./images/loading.gif" alt= "loading"></img>
+        <img className="my-3" src="./images/loading.gif" alt = "loading"></img>
       </div>
     )
   }

@@ -1,0 +1,59 @@
+/* News.css */
+
+.news-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .news-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .news-col {
+    margin-bottom: 20px;
+  }
+  
+  .news-pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  /* Add this to your CSS file or style block */
+.news-source {
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #fff; /* Set the text color */
+    font-size: 12px; /* Set the font size */
+    padding: 5px 10px; /* Set padding */
+  }
+/* Add this CSS to control logo size and position */
+.news-logo {
+    max-width: 50px; 
+    vertical-align: middle; /* Adjust the max-width as needed */
+    margin-right: 10px; 
+display: inline-block;
+margin-top: 0;
+   
+   
+   /* Adjust the margin as needed */
+  }
+  
+  .news-title {
+    font-family: 'italic';
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0; 
+    display: inline-block;
+  }
+  
